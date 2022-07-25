@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89.712" height="31.545" viewBox="0 0 89.712 31.545">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#beda8e"/>
+      <stop offset="0.089" stop-color="#b9d88b"/>
+      <stop offset="0.182" stop-color="#add386"/>
+      <stop offset="0.262" stop-color="#9ccc7e"/>
+      <stop offset="0.975" stop-color="#6eb937"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2485" data-name="Group 2485" transform="translate(-415.122 -389.998)">
+    <path id="Path_7410" data-name="Path 7410" d="M482.553,399.429l5.078-6.072A106.587,106.587,0,0,0,459.978,390c-24.773,0-44.856,7.062-44.856,15.773s20.083,15.773,44.856,15.773,44.857-7.061,44.857-15.773c0-2.558-1.743-4.971-4.817-7.107Z" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_346" data-name="Ellipse 346" cx="3.335" cy="1.488" rx="3.335" ry="1.488" transform="translate(458.678 403.168)" fill="#669d42"/>
+    <line id="Line_98" data-name="Line 98" y1="10.317" x2="6.105" transform="translate(464.723 392.137)" fill="none" stroke="#669d42" stroke-width="1"/>
+    <line id="Line_99" data-name="Line 99" x1="9.455" y1="9.938" transform="translate(449.903 391.833)" fill="none" stroke="#669d42" stroke-width="1"/>
+    <line id="Line_100" data-name="Line 100" x1="10.81" y1="9.748" transform="translate(465.423 407.632)" fill="none" stroke="#669d42" stroke-width="1"/>
+    <line id="Line_101" data-name="Line 101" x1="30.465" y1="5.317" transform="translate(426.308 398.883)" fill="none" stroke="#669d42" stroke-width="1"/>
+    <line id="Line_102" data-name="Line 102" x1="23.693" y2="10.1" transform="translate(433.679 406.144)" fill="none" stroke="#669d42" stroke-width="1"/>
+    <line id="Line_103" data-name="Line 103" x1="5.159" y2="12.043" transform="translate(455.423 407.632)" fill="none" stroke="#669d42" stroke-width="1"/>
+    <line id="Line_104" data-name="Line 104" x2="27.159" y2="6.825" transform="translate(467.435 406.025)" fill="none" stroke="#669d42" stroke-width="1"/>
+    <line id="Line_105" data-name="Line 105" y1="1.211" x2="25.764" transform="translate(468.041 402.975)" fill="none" stroke="#669d42" stroke-width="1"/>
+  </g>
+</svg>
