@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216.02" height="103.207" viewBox="0 0 216.02 103.207">
+  <g id="Group_2887" data-name="Group 2887" transform="translate(-1099 -2825.747)">
+    <g id="Group_2463" data-name="Group 2463" transform="translate(492.082 2469.924)">
+      <circle id="Ellipse_357" data-name="Ellipse 357" cx="7.883" cy="7.883" r="7.883" transform="translate(607.333 414.551)" fill="#f9f6bb"/>
+      <path id="Path_7790" data-name="Path 7790" d="M609.418,425.163a9.232,9.232,0,0,0,3.095-.336,2.33,2.33,0,0,0,1.816,2.388l-6.581,5.2a.511.511,0,0,1-.8-.578Z" fill="#ebd163" fill-rule="evenodd"/>
+      <circle id="Ellipse_358" data-name="Ellipse 358" cx="1.117" cy="1.117" r="1.117" transform="translate(614.629 420.706)" fill="#040000"/>
+      <path id="Path_7791" data-name="Path 7791" d="M652.255,429.9c-8.178-.451-12.139,3.1-18.724,3.666a22.7,22.7,0,0,1-10.12-1.551c-1.383-.762-1.268-2.864-1.265-2.9.264-2.465.9-5.789.9-5.789h-.9s-10.6,5.085-8.385,6.854.7,4.718.7,4.718-9.313,20.454,15.316,20.2,24.975-24.937,24.975-24.937C654.2,430.076,653.326,429.964,652.255,429.9Z" fill="#f9f6bb" fill-rule="evenodd"/>
+    </g>
+    <g id="Group_2464" data-name="Group 2464" transform="matrix(0.946, 0.326, -0.326, 0.946, 838.41, 2277.464)">
+      <circle id="Ellipse_357-2" data-name="Ellipse 357" cx="7.019" cy="7.019" r="7.019" transform="translate(607.287 414.551)" fill="#f9f6bb"/>
+      <path id="Path_7790-2" data-name="Path 7790" d="M609.144,425.126a8.221,8.221,0,0,0,2.756-.3,2.075,2.075,0,0,0,1.617,2.126l-5.859,4.629a.455.455,0,0,1-.709-.515Z" transform="translate(0 -1.127)" fill="#ebd163" fill-rule="evenodd"/>
+      <circle id="Ellipse_358-2" data-name="Ellipse 358" cx="0.995" cy="0.995" r="0.995" transform="translate(613.783 420.031)" fill="#040000"/>
+      <path id="Path_7791-2" data-name="Path 7791" d="M647.921,429.184c-7.281-.4-10.808,2.762-16.671,3.264a20.213,20.213,0,0,1-9.01-1.381c-1.231-.678-1.129-2.55-1.126-2.584.235-2.195.8-5.154.8-5.154h-.8s-9.436,4.527-7.465,6.1.619,4.2.619,4.2-8.292,18.211,13.636,17.98,22.236-22.2,22.236-22.2C649.65,429.336,648.875,429.236,647.921,429.184Z" transform="translate(-0.638 -0.963)" fill="#f9f6bb" fill-rule="evenodd"/>
+    </g>
+    <g id="Group_2462" data-name="Group 2462" transform="translate(600.7 2371.933) rotate(11)">
+      <circle id="Ellipse_355" data-name="Ellipse 355" cx="16.102" cy="16.102" r="16.102" transform="translate(648.773 336.198)" fill="#fff"/>
+      <path id="Path_7787" data-name="Path 7787" d="M652.371,361.279s4.326.818,6.355.2a4.763,4.763,0,0,0,2.993,5.348l-14.792,8.64a1.043,1.043,0,0,1-1.444-1.4Z" transform="translate(0 -5.111)" fill="#f6e179" fill-rule="evenodd"/>
+      <circle id="Ellipse_356" data-name="Ellipse 356" cx="1.856" cy="1.856" r="1.856" transform="translate(663.74 348.66)" fill="#040000"/>
+      <path id="Path_7788" data-name="Path 7788" d="M739.8,383.05c-16.415-3.241-25.437,2.817-38.917,2.081a46.365,46.365,0,0,1-20.026-6.019c-2.581-1.936-1.748-6.153-1.733-6.229,1.237-4.911,3.475-11.453,3.475-11.453l-1.818-.256s-22.881,7.266-18.911,11.474.063,9.741.063,9.741-24.663,38.718,25.225,45.209,57.617-43.323,57.617-43.323C743.678,383.95,741.948,383.474,739.8,383.05Z" transform="translate(-2.136 -5.09)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_7789" data-name="Path 7789" d="M679.735,388.836s28.3-12.376,43.456-8.586,1.283,11.144,1.283,11.144,6.767,1.309,1.712,7.46c0,0,3.736,1.952.062,5.891s-32.752,12.322-48.013,1.705S679.735,388.836,679.735,388.836Z" transform="translate(-5.394 -8.83)" fill="#f1f1f1" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
