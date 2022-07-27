@@ -162,6 +162,7 @@ header:after {
 @media screen and (max-width:768px) {
     .master_vision {
         min-height: auto;
+        background-image: none;
     }
 }
 
@@ -355,17 +356,189 @@ header:after {
     }
 }
 
-@media screen and (max-width:440px) {
-    .br {
-        display: none;
-    }
-}
-
-/*------Raider_owl--------*/
-.Raider_owl {
+/*------Raider_owl--------------------------------------------------------------*/
+.invite {
     background-color: #E0F6FF;
 }
 
+.invite__container{
+    max-width: 1140px;
+}
+
+.invite__main{
+    position: relative;
+    width: 371px;
+    height: 51px;
+    background-image: url('../img/Group\ 2908.png');
+}
+
+.invite_main_pic2{
+    position: absolute;
+    top: 8px;
+    right: 6%;
+}
+
+.invite_main_pic2_act{
+    transition-delay: 1s;
+    transform: rotate(180deg);
+}
+
+.invite_main_pic3{
+    position: absolute;
+    top: -35px;
+    left: -65px;
+}
+.invite_main_pic4{
+    position: absolute;
+    top: 20px;
+    right: -60px;
+}
+
+
+
+.invite__title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-55%);
+    color: #4578BE;
+    font-size: 30px;
+    white-space:nowrap;
+    font-weight: bold;
+}
+
+.invite__subtitle{
+    color:#012D6C;
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .invite__main{
+        max-width: 300px;
+        background-position: center;
+        background-image: url('../img/Group\ 2908.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .invite__title {
+        padding-top:8px;
+        font-size: 22px;
+    }
+
+    .fail__main__subtitle {
+        position: absolute;
+        top: 66px;
+        left: 50%;
+        transform: rotate(-2deg) translateX(-52%);
+        font-size: 18px;
+    }
+
+    .invite_main_pic2{
+        position: absolute;
+        top: 12px;
+        right: 6%;
+        width: 25px;
+    }
+
+    .invite_main_pic3{
+display: none;
+    }
+    .invite_main_pic4{
+display: none;
+    }
+
+    .invite__subtitle{
+        color:#012D6C;
+        font-size: 16px;
+    }
+}
+
+
+
+.invite_content__img1{
+    position:absolute;
+    top:-90px;
+    left: -80px;
+}
+
+.invite_content__img2{
+    position:absolute;
+    top:-80px;
+    left: -80px;
+    z-index: 10;
+}
+
+.invite_content__img3{
+    position:absolute;
+    bottom:-50px;
+    right: -80px;
+    z-index: 10;
+}
+
+@media screen and (max-width:1200px) {
+    .invite_content__img1{
+        position:absolute;
+        top:-70px;
+        left: -50px;
+        width: 130px;
+    }
+    
+    .invite_content__img2{
+        position:absolute;
+        top:-80px;
+        left: -65px;
+        z-index: 10;
+        width: 90px;
+    }
+    
+    .invite_content__img3{
+        position:absolute;
+        bottom:-75px;
+        right: -20px;
+        z-index: 10;
+        width: 90px;
+    }
+}
+
+
+
+.invite__card{
+width: 100%;
+height: 364px;
+background-color: white;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0px 3px 6px #00000029;
+}
+
+@media screen and (max-width:992px) {
+    .invite__card{
+        height: 390px;
+        }
+}
+
+.new_tag{
+    position:absolute;
+    top: 20px;
+    width: 78px;
+    height: 33px;
+    color: white;
+    background-color: #01A8A4;
+    box-shadow: 2px 2px 5px #00000029;
+}
+
+.invite-card__content__title{
+    color: #4578BE;
+    font-size: 24px;
+    white-space:nowrap;
+    font-weight: bold;
+}
+
+.invite-card__content__bio{
+    color:#666666;
+    font-size: 16px;
+    text-align:start;
+}
 /*----mission_failed------*/
 .fail__img1 {
     position: absolute;
@@ -434,7 +607,7 @@ header:after {
     left: 50%;
     transform: rotate(-2deg) translateX(-52%);
     font-size: 28px;
-    width: 200px;
+    white-space: nowrap;
 }
 
 .fail__bio {
@@ -508,7 +681,7 @@ header:after {
 }
 
 .fail_gift__img1 {
-    background-image: url('/img/Group\ 2544.png');
+    background-image: url('../img/Group\ 2544.png');
     background-position: right 30px top;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -517,7 +690,7 @@ header:after {
 }
 
 .fail_gift__img2 {
-    background-image: url('/img/Group\ 2677.png');
+    background-image: url('../img/Group\ 2677.png');
     background-position: left 30px top;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -526,7 +699,7 @@ header:after {
 }
 
 .fail_gift__img3 {
-    background-image: url('/img/Group\ 3037.png');
+    background-image: url('../img/Group\ 3037.png');
     background-position: right 30px top;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -667,7 +840,7 @@ header:after {
     z-index: 2;
     top: -50px;
     background-position: center top;
-    background-image: url('/img/catch_by_online/wave_up.png');
+    background-image: url('../img/catch_by_online/wave_up.png');
 }
 
 .mission_passed::after {
@@ -682,7 +855,7 @@ header:after {
     z-index: 2;
     bottom: -50px;
     background-position: center top;
-    background-image: url('/img/catch_by_online/wave_down.png');
+    background-image: url('../img/catch_by_online/wave_down.png');
 }
 
 .pass__main {
@@ -1059,7 +1232,7 @@ header:after {
         z-index: 1;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url('/img/catch_by_online/appdownload_bg_bottom_m.svg');
+        background-image: url('../img/catch_by_online/appdownload_bg_bottom_m.svg');
     }
 
     .bottom__bg__pic:after{
@@ -1074,7 +1247,7 @@ header:after {
         z-index:1;
         background-size: contain;
         background-repeat: no-repeat;
-        background-image: url('/img/catch_by_online/appdownload_bg_m.png');
+        background-image: url('../img/catch_by_online/appdownload_bg_m.png');
     }
 }
 
