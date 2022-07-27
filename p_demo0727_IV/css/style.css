@@ -453,6 +453,36 @@ display: none;
     }
 }
 
+@media screen and (max-width:400px) {
+    .invite__main{
+        max-width: 300px;
+        background-position: center;
+        background-image: url('../img/Group\ 2908.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .invite__title {
+        padding-top:8px;
+        font-size: 22px;
+    }
+
+    .fail__main__subtitle {
+        position: absolute;
+        top: 66px;
+        left: 50%;
+        transform: rotate(-2deg) translateX(-52%);
+        font-size: 18px;
+    }
+
+    .invite_main_pic2{
+        position: absolute;
+        top: 12px;
+        right: 6%;
+        width: 25px;
+    }
+
+}
 
 
 .invite_content__img1{
