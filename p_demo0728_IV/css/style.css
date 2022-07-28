@@ -220,7 +220,6 @@ header:after {
     display: inline-block;
     position: absolute;
     width: 100%;
-    height: 100px;
     top: -50px;
     left: 0;
     z-index: 1;
@@ -356,8 +355,15 @@ header:after {
     }
 }
 
+@media screen and (max-width:576px) {
+    .br{
+        display: none;
+    }
+}
+
 /*------Raider_owl--------------------------------------------------------------*/
 .invite {
+    overflow: hidden;
     background-color: #E0F6FF;
 }
 
@@ -387,7 +393,9 @@ header:after {
     position: absolute;
     top: -35px;
     left: -65px;
+    z-index: 10;
 }
+
 .invite_main_pic4{
     position: absolute;
     top: 20px;
@@ -399,6 +407,7 @@ header:after {
 .invite__title {
     position: absolute;
     left: 50%;
+    top: 5px;
     transform: translateX(-55%);
     color: #4578BE;
     font-size: 30px;
@@ -408,12 +417,25 @@ header:after {
 
 .invite__subtitle{
     color:#012D6C;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:992px) {
+    .invite__title {
+        position: absolute;
+        left: 50%;
+        top: 8px;
+        transform: translateX(-55%);
+        color: #4578BE;
+        font-size: 24px;
+        white-space:nowrap;
+        font-weight: bold;
+    }
 }
 
 @media screen and (max-width:768px) {
     .invite__main{
-        max-width: 300px;
+        max-width: 271px;
         background-position: center;
         background-image: url('../img/Group\ 2908.png');
         background-size: contain;
@@ -421,8 +443,12 @@ header:after {
     }
 
     .invite__title {
-        padding-top:8px;
+        position: absolute;
+        left: 48%;
+        top: 5px;
+        padding-top:5px;
         font-size: 22px;
+        font-weight: normal;
     }
 
     .fail__main__subtitle {
@@ -437,51 +463,25 @@ header:after {
         position: absolute;
         top: 12px;
         right: 6%;
-        width: 25px;
+        width: 21px;
     }
 
     .invite_main_pic3{
-display: none;
+        position: absolute;
+        top: -25px;
+        left: -65px;
     }
     .invite_main_pic4{
-display: none;
+        position: absolute;
+        top: 20px;
+        right: -55px;
     }
+    
 
     .invite__subtitle{
         color:#012D6C;
         font-size: 16px;
     }
-}
-
-@media screen and (max-width:400px) {
-    .invite__main{
-        max-width: 300px;
-        background-position: center;
-        background-image: url('../img/Group\ 2908.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-    .invite__title {
-        padding-top:8px;
-        font-size: 22px;
-    }
-
-    .fail__main__subtitle {
-        position: absolute;
-        top: 66px;
-        left: 50%;
-        transform: rotate(-2deg) translateX(-52%);
-        font-size: 18px;
-    }
-
-    .invite_main_pic2{
-        position: absolute;
-        top: 12px;
-        right: 6%;
-        width: 25px;
-    }
-
 }
 
 
@@ -606,6 +606,15 @@ box-shadow: 0px 3px 6px #00000029;
     position: absolute;
     bottom: 15px;
     right: 80px;
+}
+
+@media screen and (max-width:768px) {
+    .fail__img3 {
+        width: 136px;
+        height: 62px;
+
+        right: 20px;
+    }
 }
 
 .fail__container {
@@ -742,12 +751,26 @@ box-shadow: 0px 3px 6px #00000029;
     .fail_gift__img1,
     .fail_gift__img2,
     .fail_gift__img3 {
-        height: 185px;
+        height: 182px;
+    }
+}
+@media screen and (max-width:576px) {
+
+    .fail_gift__img1,
+    .fail_gift__img2,
+    .fail_gift__img3 {
+        height: 144px;
     }
 }
 
 .fail__group {
     padding: 50px 50px;
+}
+
+@media screen and (max-width:768px) {
+    .fail__group {
+        padding: 30px 30px;
+    }
 }
 
 .fail__group__title {
@@ -802,6 +825,7 @@ box-shadow: 0px 3px 6px #00000029;
         color: #012D6C;
         font-size: 15px;
         padding-left: 0;
+        margin:20px 0 0 0;
     }
 }
 
@@ -858,6 +882,15 @@ box-shadow: 0px 3px 6px #00000029;
     background-color: #ceeeff;
 }
 
+@media screen and (max-width:768px) {
+    .mission_passed {
+        position: relative;
+        padding-top: 40px;
+        background-color: #ceeeff;
+    }
+    
+}
+
 .mission_passed:before {
     content: "";
     display: inline-block;
@@ -909,6 +942,8 @@ box-shadow: 0px 3px 6px #00000029;
     font-size: 32px;
 }
 
+
+
 .pass__main__subtitle {
     position: absolute;
     top: 72px;
@@ -924,19 +959,19 @@ box-shadow: 0px 3px 6px #00000029;
 
     .pass__main__title {
         position: absolute;
-        top: -6px;
+        top: -2px;
         left: 50%;
         transform: translateX(-30%);
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .pass__main__subtitle {
         width: 220px;
         position: absolute;
-        top: 56px;
+        top: 54px;
         left: 50%;
         transform: rotate(-2deg) translateX(-35%);
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 .pass__rule {
@@ -956,6 +991,20 @@ box-shadow: 0px 3px 6px #00000029;
     color: #4073A7;
     font-size: 20px;
     font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .pass__rule__title {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .pass__rule__content {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+
 }
 
 .pass-container {
@@ -1091,7 +1140,7 @@ box-shadow: 0px 3px 6px #00000029;
 
 @media screen and (max-width:768px) {
     .precautions {
-        padding-top: 80px;
+        padding-top: 70px;
     }
 
     .precautions__img1 {
@@ -1128,6 +1177,12 @@ box-shadow: 0px 3px 6px #00000029;
     margin-bottom: 20px;
     cursor: pointer;
     position: relative;
+}
+
+@media screen and (max-width:768px) {
+    .precaution__title__click {
+        margin-bottom: 0px;
+    }
 }
 
 .notice_span {
@@ -1232,18 +1287,34 @@ box-shadow: 0px 3px 6px #00000029;
     margin: 0 5px;
 }
 
-.add_fun__download__app__img {
-    margin-bottom: 9px;
+
+.add_fun__app__img{
+    width: 110px;
+}
+
+.common_share a{
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: none;
+}
+@media screen and (max-width:767px) {
+    .common_share a{
+        display: inline-block;
+        margin: 0 0;
+        width: 49%;
+    }
 }
 
 @media screen and (max-width:576px) {
-    .add_fun__download__app__img {
+
+
+    /* .add_fun__download__app__img {
         max-width: 120px;
     }
 
     .add_fun__download__app{
         max-width: 140px;
-    }
+    } */
 
     .bottom__bg__pic{
         background-image: none;
