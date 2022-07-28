@@ -220,6 +220,7 @@ header:after {
     display: inline-block;
     position: absolute;
     width: 100%;
+    height: 100px;
     top: -50px;
     left: 0;
     z-index: 1;
@@ -362,9 +363,14 @@ header:after {
 }
 
 /*------Raider_owl--------------------------------------------------------------*/
-.invite {
-    overflow: hidden;
+.invite{
     background-color: #E0F6FF;
+}
+
+@media screen and (max-width:576px) {
+    .invite{
+        overflow-x: hidden;
+    }
 }
 
 .invite__container{
